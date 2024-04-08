@@ -3,87 +3,84 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
 	<title>Доставка грузов из китая</title>
 </head>
 <body>
-	<header>
+	<section class="promo">
+		<!-- header -->
 		<div class="container">
 			<div class="header">
 				<div class="row">
-					<div class=" col-6 header__logo">
-						<img src="icons/logo.png" alt="logo">
+					<div class=" header__logo col-1 ">
+						<img src="icons/logo.png" class="header__logo_icon" alt="logo">
 					</div>
-					<nav>
-						<div class="container">
-							<div class="col-6  menu">
-								<ul>
-									<li class="menu__item"><a href="#" class="menu__link">Преимущества</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Наша работа</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Цены</a> </li>
-									<li class="menu__item"><a href="#" class="menu__link">Схема работы</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
-								</ul>
-							</div>
-						</div>
-					</nav>
-				</div>
-
-				<div class="col-6 header__phone">
-					<div class="header__phone_text">Есть вопросы?</div>
-					<a href="tel:+79264230100" class="header__phone_number">+7 (926) 423 01 00</a>
-				</div>
-
-				<div class="header__btn">
-					<div class="header__btn_text">Перезвоните мне</div>
+					<div class="menu col-7">
+						<ul>
+							<li class="menu__item"><a href="#" class="menu__link">Преимущества</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Наша работа</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Цены</a> </li>
+							<li class="menu__item"><a href="#" class="menu__link">Схема работы</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="header__phone col-2">
+						<div class="header__phone_text">Есть вопросы?</div>
+						<a href="tel:+79264230100" class="header__phone_number">+7 (926) 423 01 00</a>
+					</div>
+					<div class="btn col-2" >
+					<div class="btn__text">Перезвоните мне</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</header>
-	<section class="promo">
+<!-- promo -->
 		<div class="container">
 			<h1 class="main-title">Global Opt - логистика полного цикла из Китая в Россию</h1>
 			<h2 class="title">ДОСТАВКА ГРУЗОВ ИЗ КИТАЯ</h2>
 			<h3 class="subtitle">В РОССИЮ И СНГ ВСЕМИ ВИДАМИ ТРАНСПОРТА</h3>
 
 			<div class="promo__divider"></div>
-
+			
 			<div class="promo__wrapper">
-				<div class="row">
 					<div class="promo__item">
 						<div class="promo__item_img">
 							<img src="icons/icons_promo/icon_1.png" alt="">
 						</div>
-						<div class="promo__item_descr"></div>
+						<div class="promo__item_descr">Перевозка негабаритных и крупнотоннажных грузов</div>
 					</div>
 					<div class="promo__item">
 						<div class="promo__item_img">
 							<img src="icons/icons_promo/icon_2.png" alt="">
 						</div>
-						<div class="promo__item_descr"></div>
+						
+					<div class="promo__item_descr">Самостоятельно декларируем и проводим таможенную очистку с оптимизацией кодов и ставок</div>
 					</div>
+
 					<div class="promo__item">
 						<div class="promo__item_img">
 							<img src="icons/icons_promo/icon_3.png" alt="">
 						</div>
-						<div class="promo__item_descr"></div>
+						<div class="promo__item_descr">Осуществляем прямые поставки с заводов от двери до двери</div>
 					</div>
 					<div class="promo__item">
 						<div class="promo__item_img">
 							<img src="icons/icons_promo/icon_4.png" alt="">
 						</div>
-						<div class="promo__item_descr"></div>
+						<div class="promo__item_descr">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг  </div>
 					</div>
-				</div>
 			</div>
-			<div class="promo__btn">
+			<div class="btn btn_promo">
 				получить расчет
 			</div>
 		</div>
 	</section>
 
 	<section class="advant">
-		<div class="conteiner">
+		<div class="container">
 			<h2 class="title_advant">Преимущества работы с GlobalOpt</h2>
 			
 			<div class="advant__wrapper">
@@ -91,65 +88,148 @@
 					<div class="col-md-6">
 						<div class="advant__wrapper_item">
 							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/offices.png" alt="icon"></div>
-							<div class="advant__wrapper_text"></div>
-							<div class="advant__wrapper_descr"></div>
+							<div class="block">
+								<div class="advant__wrapper_text">Офисы в Китае и России</div>
+							<div class="advant__wrapper_descr">
+								Офисы расположены в Москве, столице России.  И в Гуанчжоу, мировом торговом мегаполисе Китая. 
+							</div>
+						</div>
+							</div>
+					</div>
+					<div class="col-md-6">
+						<div class="advant__wrapper_item">
+							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/form.png" alt="icon"></div>
+							<div class="block">
+								<div class="advant__wrapper_text">Декларируем груз с оптимизацией</div>
+								<div class="advant__wrapper_descr">
+									Идем на встречу своим клиентам и помогаем растаможить груз с оптимизацией кодов и ставок.
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="advant__wrapper_item">
-							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/offices.png" alt="icon"></div>
-							<div class="advant__wrapper_text"></div>
-							<div class="advant__wrapper_descr"></div>
+							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/workers.png" alt="icon"></div>
+							<div class="block">
+								<div class="advant__wrapper_text">Квалифицированные кадры</div>
+								<div class="advant__wrapper_descr">
+									Наши сотрудники имеют большой опыт в логистике с Китаем и в совершенстве владеют китайским и английским языками.
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="advant__wrapper_item">
-							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/offices.png" alt="icon"></div>
-							<div class="advant__wrapper_text"></div>
-							<div class="advant__wrapper_descr"></div>
+							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/find.png" alt="icon"></div>
+							<div class="block">
+								<div class="advant__wrapper_text">Осуществляем поиск производителей</div>
+								<div class="advant__wrapper_descr">
+									Помогаем нашим клиентам найти интересующий вас товар или производителя в Китае.
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="advant__wrapper_item">
-							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/offices.png" alt="icon"></div>
-							<div class="advant__wrapper_text"></div>
-							<div class="advant__wrapper_descr"></div>
+							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/deposit.png" alt="icon"></div>
+							<div class="block">
+								<div class="advant__wrapper_text">Собственный склад в Китае</div>
+								<div class="advant__wrapper_descr">
+									Свой склад в Китае, позволяет собирать и проверять и упаковывать  ваши товары, перед отправкой.
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="advant__wrapper_item">
-							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/offices.png" alt="icon"></div>
-							<div class="advant__wrapper_text"></div>
-							<div class="advant__wrapper_descr"></div>
+							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/convert.png" alt="icon"></div>
+							<div class="block">
+								<div class="advant__wrapper_text">Перевод денег в Китай</div>
+								<div class="advant__wrapper_descr">
+									Помогаем переводить и оплачивать товар в Китае на льготных условиях
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="advant__wrapper_item">
-							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/offices.png" alt="icon"></div>
-							<div class="advant__wrapper_text"></div>
-							<div class="advant__wrapper_descr"></div>
+							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/wholosale.png" alt="icon"></div>
+							<div class="block">
+								<div class="advant__wrapper_text">Делаем оптовые поставки под ключ</div>
+								<div class="advant__wrapper_descr">
+									Берём на себя все заботы связанные с  закупкой, проверкой на качество, логистикой и растаможкой. От вас требуется лишь заполнить техническое задание, одобрить  образцы товаров и после принять товар на своём складе!
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="advant__wrapper_item">
-							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/offices.png" alt="icon"></div>
-							<div class="advant__wrapper_text"></div>
-							<div class="advant__wrapper_descr"></div>
+							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/trip.png" alt="icon"></div>
+							<div class="block">
+								<div class="advant__wrapper_text">Поездка на производство в Китай</div>
+								<div class="advant__wrapper_descr">
+									У нас большой опыт в бизнес поездках по Китаю. Мы с большой радостью и желанием организуем вам такую поездку в Китай под ключ. Сделаем визу, трансфер из аэропорта, забронируем отель, предоставим переводчика. Организуем поездку на производство. Шоп тур. Мебельный тур. 
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
-						<div class="advant__wrapper_item">
-							<div class="advant__wrapper_icon"><img src="icons/icons_advanages/offices.png" alt="icon"></div>
-							<div class="advant__wrapper_text"></div>
-							<div class="advant__wrapper_descr"></div>
-						</div>
-					</div>
-
 				</div>
 			</div>
-
 		</div>
 	</section>
+
+	<section class="ourWork">
+		<div class="container">
+			<div class="title_ourWork">Наша работа - больше чем просто доставка</div>
+			<div class="divider"></div>
+			<h3 class="ourWork__descr">Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза <br>
+				и ваших требований по срокам и бюджету.</h3>
+			<div class="ourWork__wrapper">
+				<div class="ourWork__item">
+					<div class="ourWork__item_img"> <img src="img/our_works/insuarance.png" alt="img"></div>
+					<div class="ourWork__item_title">Страховка груза</div>
+					<div class="ourWork__item_descr">
+						Все грузы, логистику которых осуществляет Global Opt, застрахованы. Мы гарантируем полное возмещение стоимости груза в случаях, предусмотренных страхо- вым соглашением. Все ваши тревоги наша компания берет на себя.
+					</div>
+				</div>
+				<div class="ourWork__item">
+					<div class="ourWork__item_img"> <img src="img/our_works/logistic.png" alt="img"></div>
+					<div class="ourWork__item_title">Логистика последней мили</div>
+					<div class="ourWork__item_descr">
+						Мы осуществляем доставку вашего груза до конкретного адреса. Привоз согласовывается менед- жерами по телефону, предварительно за сутки и за час до доставки. Также мы предоставляем услуги грузчи- ков по месту доставки груза.
+					</div>
+				</div>
+				<div class="ourWork__item">
+					<div class="ourWork__item_img"> <img src="img/our_works/staight.png" alt="img"></div>
+					<div class="ourWork__item_title">Мы всегда смотрим вперед</div>
+					<div class="ourWork__item_descr">
+						Философия нашей компании, делать себя и своих партнеров по всему миру, успешными и богатыми. Поэтому мы всегда открыты к диалогу о партнерстве и инвестициях. 
+					</div>
+				</div>
+			</div>		
+		</div>
+	</section>
+	<section class="agent">
+		<div class="container">
+			<div class="agent__item">
+				<div class="agent__item_round">
+					<div class="agent__item_icon">
+						<img src="icons/agent.png" alt="icon">
+					</div>
+				</div>
+				<div class="title_agent">Агент в Китае</div>
+				<div class="agent_descr">Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.</div>
+			</div>
+		</div>
+	</section>
+<section class="prices">
+	<div class="container">
+		<div class="title_prices">Цены на любой вариант доставки</div>
+		<div class="divider"></div>
+		<div class="prices_descr">Перевозки грузов на дальние расстояния без каких-либо ограничений.
+			Любой груз доставим вовремя. </div>
+	</div>
+</section>
 
 	<script src="js/script.js/"></script>
 </body>

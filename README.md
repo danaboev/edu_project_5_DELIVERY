@@ -18,6 +18,8 @@
 ===================================================
 
 - html
-- css-sass
+- css-sass, flexbox
 - js
+- bem
+- bootstrap
 

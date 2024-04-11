@@ -19,7 +19,7 @@
 
 - html
 - css-sass, flexbox
-- js
+- js/gulp/npm 
 - bem
 - bootstrap
 

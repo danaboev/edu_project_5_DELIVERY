@@ -22,4 +22,6 @@
 - js/gulp/npm 
 - bem
 - bootstrap
+- svg
+- 
 

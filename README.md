@@ -23,5 +23,3 @@
 - bem
 - bootstrap
 - svg
-- 
-

@@ -1,4 +1,4 @@
-# edu_project_5_DELIVERY
+# edu_project_5_DELIVERY(GLOBAL.OPT)
 
 сайт о компании которая предоставляет авиа-транспортные перевозки
 
